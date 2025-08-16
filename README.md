@@ -6,7 +6,7 @@ This repository contains the source code for my personal profile and portfolio w
 
 The website is hosted on GitHub Pages and can be accessed at the following URL:
 
-**[https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/)**
+**[https://herveinp.github.io/](https://herveinp.github.io/)**
 
 ## Website Preview
 
