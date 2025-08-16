@@ -1,45 +1,469 @@
-<!--
-  Hit RUN to see this project in action!
-  
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Herve Iuliano Natama Purba | Sr. IT Support | Jr. Front-End Developer |Jr.
+      Back-End Developer | Jr. Full-Stack Developer
+    </title>
+    <meta
+      name="description"
+      content="Welcome to my personal profile website, I'm an experienced Sr. IT Support professional and aspiring Jr. Front-End, Back-End, and Full-Stack Developer. Explore my skills, projects, and professional journey."
+    />
+    <meta
+      name="keywords"
+      content="Herve Iuliano Natama Purba, IT Support, Front-End Developer, Back-End Developer, Full-Stack Developer, personal profile, web development"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS Framework -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="container-fluid header pb-5">
+      <!-- Navbar section -->
+      <nav class="navbar navbar-expand-lg navbar-light mt-3">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-5 active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-<!DOCTYPE html>
-<html>
+      <!-- Jumbotron section -->
+      <div id="jumbotron" class="py-5">
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold">Herve Iuliano Natama Purba</h1>
+          <p class="lead fs-5 mb-4">
+            Turning Concepts into Reality: Bringing Ideas to Life Through Code
+          </p>
+        </div>
+        <div class="container-fluid">
+          <div class="d-grid gap-2 d-sm-flex">
+            <a
+              href="mailto:herve.inp@outlook.com"
+              class="btn btn-primary btn-lg contact-btn"
+            >
+              <i class="fa-solid fa-envelope me-2"></i>Email Me
+            </a>
+            <a href="tel:+6285156744049" class="btn btn-secondary btn-lg">
+              <i class="fa-solid fa-phone me-2"></i>Call Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <!-- Main section -->
+    <main class="container mt-5">
+      <!-- About me section -->
+      <section id="about-me">
+        <h2 class="border-bottom border-2 border-dark pb-2 d-inline-block m-0">
+          About Me
+        </h2>
 
-<body>
-  <main>
-    <h1 class="title">Welcome to HTML on Replit!</h1>
-    <p class="description">Get started by editing
-      <code class="code">index.html</code>. The webview will auto-refresh as you edit! (See <code
-        class="code">README.md</code> if you want to
-      disable auto-refresh.)
-    </p>
+        <!-- Professional summary section -->
+        <section id="professional-summary" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-user me-2"></i>Professional Summary
+          </h3>
+          <div class="row mt-4 align-items-stretch">
+            <!-- Image column -->
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              <img
+                src="assets/image/pasfoto2.webp"
+                alt="Pasfoto Herve Iuliano Natama Purba"
+                class="img-fluid border border-2 border-dark rounded-3 w-100 h-100 object-fit-cover"
+              />
+            </div>
+            <!-- Professional summary text column -->
+            <div class="col-lg-9">
+              <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                  <div class="flex-grow-1">
+                    <p class="text-justify">
+                      I am a passionate IT Support professional with a strong
+                      focus on delivering results. I have a wealth of experience
+                      in diagnosing and fixing complex hardware and software
+                      problems, which has helped improve system uptime and
+                      enhance network performance. I’m skilled in managing
+                      various operating systems, setting up network
+                      infrastructure, and providing top-notch technical support
+                      and training to users. My expertise spans networking,
+                      system administration, and troubleshooting, and I am
+                      committed to continuously developing my skills in IT and
+                      full-stack development.
+                    </p>
+                    <p class="text-justify">
+                      My contact information is as follows:
+                    </p>
+                  </div>
+                  <ul class="list-unstyled m-0">
+                    <li class="mb-2">
+                      <i class="fa-solid fa-house-chimney me-2"></i>Jl. Glugur
+                      Rimbun, Tuntungan II, Kec. Pancur Batu, Kab. Deli Serdang,
+                      Sumatera Utara 20353
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa-solid fa-envelope me-2"></i
+                      >herve.inp@outlook.com
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa-solid fa-phone me-2"></i>+6285156744049
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa-brands fa-linkedin me-2"></i
+                      >linkedin.com/in/herveprba
+                    </li>
+                    <li class="mb-0">
+                      <i class="fa-brands fa-x-twitter me-2"></i>x.com/hrveinp
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <section class="grid">
-      <a href="https://replit.com/learn" class='card'>
-        <h2>Learn &rarr;</h2>
-        <p>Find tutorials on Replit to learn more.</p>
-      </a>
+        <!-- Education section -->
+        <section id="education" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-graduation-cap me-2"></i>Education
+          </h3>
+          <div class="mt-4">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mb-2"
+            >
+              <h4 class="m-0">SMA SWASTA YAPIM SEI GLUGUR</h4>
+              <p class="text-body-secondary m-0">Deli Serdang 20353, ID</p>
+            </div>
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mb-2"
+            >
+              <p class="m-0">High School Diploma (Natural Science major)</p>
+              <p class="text-body-secondary m-0">July 2018 - May 2021</p>
+            </div>
+            <p class="mb-2">Cumulative GPA: 3.3/4.0 (84/100)</p>
+            <p class="mb-0">
+              Relevant Coursework: Mathematics, Physics, Chemistry, Biology,
+              English, Indonesian, ICT
+            </p>
+          </div>
+        </section>
 
-      <a href="https://docs.replit.com/category/deployments" class='card'>
-        <h2>Deploy &rarr;</h2>
-        <p>
-          After you are happy with this app, deploy it on Replit!
-        </p>
-      </a>
-    </section>
-  </main>
+        <!-- Work experience section -->
+        <section id="work-experience" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-briefcase me-2"></i>Work Experience
+          </h3>
+          <div class="mt-4">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mb-2"
+            >
+              <h4 class="m-0">
+                ROANMA.NET
+                <span class="fw-normal fs-4">(Family-owned internet café)</span>
+              </h4>
+              <p class="text-body-secondary m-0">Deli Serdang 20353, ID</p>
+            </div>
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mb-2"
+            >
+              <p class="m-0">Senior Information Technology Support</p>
+              <p class="text-body-secondary m-0">April 2013 – December 2023</p>
+            </div>
+            <ul class="ps-6">
+              <li class="text-justify mb-2">
+                Achieved a 15% reduction in system downtime by effectively
+                diagnosing and resolving hardware and software issues on 18
+                personal computers, improving overall operational efficiency.
+              </li>
+              <li class="text-justify mb-2">
+                Increased company network performance by 10%, leading to higher
+                user satisfaction and productivity, through strategic
+                configuration and management of Mikrotik routers and ISP modems.
+              </li>
+              <li class="text-justify mb-2">
+                Ensured optimal performance and functionality of Windows 7/10
+                systems and essential software in a high-volume Internet café
+                through meticulous installation and configuration.
+              </li>
+              <li class="text-justify">
+                Enhanced user knowledge and efficiency by providing exceptional
+                technical support and targeted training on software applications
+                and hardware operations.
+              </li>
+            </ul>
+          </div>
+        </section>
 
-  <script type="module" src="script.js"></script>
+        <!-- Skills section -->
+        <section id="skills" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-atom me-2"></i>Skills
+          </h3>
+          <div class="mt-4">
+            <ul class="ps-6">
+              <li class="mb-2">
+                <span class="fw-bold">Operating Systems:</span> Windows 7/10,
+                Linux (Ubuntu, Debian, Linux Mint)
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Networking:</span> TCP/IP, DNS, DHCP, VPN,
+                LAN/WAN, Routers, Switches, Firewalls, Wi-Fi
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Hardware:</span> Desktops, Laptops
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Software:</span> Microsoft Office Suite
+                (2016, 2021), Visual Studio Code, E-book Reader (Sumatra PDF),
+                Antivirus Software (Bitdefender, Smadav, Avast), Ticketing
+                System (Spiceworks)
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Virtualization:</span> Hyper-V, VirtualBox
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Databases:</span> MySQL, PostgreSQL (Basic
+                understanding/querying)
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Security:</span> Endpoint Security, Data
+                Backup & Recovery, User Access Management
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Remote Support Tools:</span> TeamViewer,
+                RDP
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Programming Languages:</span> HTML5, CSS,
+                JS, Framework (Bootstrap)
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Version Control:</span> Git, GitHub
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Scripting:</span> PowerShell, Bash (Basic
+                scripting for automation on Windows & Linux)
+              </li>
+              <li class="mb-2">
+                <span class="fw-bold">Methodologies:</span> ITIL Framework,
+                Agile
+              </li>
+              <li class="mb-0">
+                <span class="fw-bold">Other:</span> Troubleshooting, Problem
+                Solving, Technical Documentation, End User Training and Support,
+                Customer Service, Empathy, Leadership, Mentoring
+              </li>
+            </ul>
+          </div>
+        </section>
 
-</body>
+        <!-- Certifications section -->
+        <section id="certifications" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-certificate me-2"></i>Certifications
+          </h3>
+          <div class="mt-4">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mb-2"
+            >
+              <h4 class="m-0">
+                <a
+                  href="https://coursera.org/share/afe4ac4604798b3dbf46087e94c3dc1c"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >IBM IT Support Professional Certificate</a
+                >
+              </h4>
+              <p class="text-body-secondary m-0">July 2025</p>
+            </div>
+            <!-- Perbaikan: Menambahkan </div> penutup yang hilang -->
+          </div>
+        </section>
 
+        <!-- Languages section -->
+        <section id="languages" class="mt-5">
+          <h3
+            class="border-bottom border-2 border-dark pb-2 d-inline-block m-0"
+          >
+            <i class="fa-solid fa-language me-2"></i>Languages
+          </h3>
+          <!-- First language -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="fw-bold m-0">Indonesian</p>
+              <p class="text-body-secondary m-0">C2 (Native Speaker)</p>
+            </div>
+          </div>
+          <!-- Second language -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="fw-bold m-0">English</p>
+              <p class="text-body-secondary m-0">B1 (Intermediate)</p>
+            </div>
+          </div>
+          <!-- Third language -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="fw-bold m-0">Chinese Mandarin</p>
+              <p class="text-body-secondary m-0">B1 (Intermediate)</p>
+            </div>
+          </div>
+          <!-- Fourth language -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="fw-bold m-0">German</p>
+              <p class="text-body-secondary m-0">A1 (Beginner)</p>
+            </div>
+          </div>
+          <!-- Fifth language -->
+          <div class="mt-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="fw-bold m-0">Japanese</p>
+              <p class="text-body-secondary m-0">A1 (Beginner)</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="container-fluid bg-dark text-white py-5 mt-5 footer-section">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom Kiri: Info Lokasi dan Peta -->
+          <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+            <h3>Our Location</h3>
+            <p class="text-white-50">
+              Jl. Glugur Rimbun, Tuntungan II, Kec. Pancur Batu, <br />
+              Kab. Deli Serdang, Sumatera Utara 20353
+            </p>
+
+            <!-- Responsive Google Map Wrapper -->
+            <div class="map-responsive mb-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.89620130061797!2d98.55591669602256!3d3.5087594235764015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1755273785853!5m2!1sen!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <p class="copyright-text">
+              &copy; 2024 Herve Iuliano Natama Purba. All Rights Reserved.
+            </p>
+          </div>
+
+          <!-- Kolom Kanan: Form Kontak -->
+          <div id="contact-me" class="col-lg-6 col-md-12">
+            <h3>Contact Me</h3>
+            <form action="https://formspree.io/f/mzzvwwzv" method="POST">
+              <div class="mb-3">
+                <label for="footerName" class="form-label">Name</label>
+                <!-- Tambahkan atribut name="name" -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="footerName"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="footerEmail" class="form-label"
+                  >Email address</label
+                >
+                <!-- Tambahkan atribut name="email" (ini penting agar Anda bisa membalas email) -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="footerEmail"
+                  name="email"
+                  placeholder="name@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="footerMessage" class="form-label">Message</label>
+                <!-- Tambahkan atribut name="message" -->
+                <textarea
+                  class="form-control"
+                  id="footerMessage"
+                  name="message"
+                  rows="5"
+                  placeholder="Your message here..."
+                  required
+                ></textarea>
+              </div>
+              <input type="hidden" name="_next" value="thank-you.html" />
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Fontawesome Icon Framework -->
+    <script
+      src="https://kit.fontawesome.com/0af254fe65.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

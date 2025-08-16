@@ -1,27 +1,60 @@
-# HTML, CSS, JS (Auto Refresh)
+# Personal Profile & Portfolio Website
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+This repository contains the source code for my personal profile and portfolio website. It is designed to serve as a comprehensive online resume, showcasing my skills, professional experience, and a curated selection of my projects to potential employers and collaborators. The website is built with a mobile-first approach, ensuring a seamless experience across all devices.
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+## Live Demo
 
-## Disable Auto Refresh
+The website is hosted on GitHub Pages and can be accessed at the following URL:
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+**[https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/)**
 
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: '0.0.0.0',
-    hmr: false, // Change this line to `false` disable auto-refreshing.
-  }
-})
-```
+## Website Preview
 
-## Packages
+![A preview image of the website's homepage on desktop](assets/image/personal-profile-website-preview.webp)
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+## Features
 
-## Learn More
+-   **Fully Responsive Design:** Adapts fluidly to desktops, tablets, and mobile phones using Bootstrap's grid system and custom media queries.
+-   **Detailed About Me Section:** A comprehensive overview of my professional summary, work experience, education, skills, and certifications.
+-   **Dynamic Portfolio Grid:** A responsive 3x3 grid showcasing my best projects. Each project card includes a screenshot, title, and a direct link to the live project.
+-   **Functional Contact Form:** An integrated contact form that sends messages directly to my email using a serverless backend service (Formspree), suitable for static hosting environments.
+-   **Semantic & Accessible HTML:** Structured with semantic HTML5 tags for better SEO and accessibility.
+-   **Modern UI/UX:** Clean and professional design with subtle hover effects and animations for an enhanced user experience.
 
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
+## Technologies Used
+
+This project was built using modern front-end technologies and services:
+
+-   **Frontend:**
+    -   HTML5
+    -   CSS3
+    -   JavaScript (for Bootstrap components)
+
+-   **Frameworks & Libraries:**
+    -   [**Bootstrap 5**](https://getbootstrap.com/): For the responsive grid system, components (Navbar, Cards, Forms), and utility classes.
+    -   [**Font Awesome**](https://fontawesome.com/): For high-quality icons used throughout the site.
+
+-   **Backend & Deployment:**
+    -   [**Formspree**](https://formspree.io/): As a serverless backend to handle contact form submissions on a static site.
+    -   [**GitHub Pages**](https://pages.github.com/): For hosting the static website.
+
+## Key Implementation Details
+
+### Responsive Grid System
+The portfolio section utilizes Bootstrap's powerful grid system to create a flexible layout. The classes `col-lg-4`, `col-md-6`, and the default stacking behavior for smaller screens ensure an optimal viewing experience:
+-   **Desktops (`lg`):** 3 columns
+-   **Tablets (`md`):** 2 columns
+-   **Mobiles:** 1 column
+
+### Static Site Contact Form
+As GitHub Pages only supports static content, a traditional backend for processing forms is not possible. To solve this, this project leverages **Formspree**. The HTML form's `action` attribute points to a unique Formspree endpoint. When a user submits the form, the data is securely sent to Formspree, which then forwards it to my personal email address.
+
+## Contact
+
+-   **Herve Iuliano Natama Purba**
+-   **Email:** `herve.inp@outlook.com`
+-   **LinkedIn:** [linkedin.com/in/herveprba](https://linkedin.com/in/herveprba)
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
