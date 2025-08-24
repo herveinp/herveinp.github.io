@@ -10,7 +10,7 @@ The website is hosted on GitHub Pages and can be accessed at the following URL:
 
 ## Website Preview
 
-![A preview image of the website's homepage on desktop](assets/image/personal-profile-website-preview.webp)
+![A preview image of the website's homepage on desktop](assets/images/personal-profile-website-preview.webp)
 
 ## Features
 
